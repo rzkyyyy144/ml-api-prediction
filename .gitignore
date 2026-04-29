@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+.venv/
+.VENV/
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# Flask instance folder
+instance/
+*.log
+
+# Environment variables
+.env
+
+# Model files
+models/*.h5
+models/*.pkl
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Other
+*.sqlite3
+*.db
+.DS_Store
